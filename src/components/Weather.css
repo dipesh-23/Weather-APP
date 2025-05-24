@@ -27,6 +27,7 @@
 
 .search-bar img {
   width: 50px;
+  height: 50px;
   border-radius: 50%;
   padding: 15px;
   background-color: #ebfffc;
@@ -98,15 +99,15 @@
   }
 
   .weather-icon {
-    width: 80px;
+    width: 100px;
   }
 
   .temperature {
-    font-size: 2rem;
+    font-size: 50px;
   }
 
   .location {
-    font-size: 1.2rem;
+    font-size: 28px;
   }
 }
 
@@ -128,13 +129,14 @@
   .search-bar input {
     flex: 1;
     font-size: 14px;
-    padding: 8px;
+    padding: 10px 15px;
+    height: auto;
   }
 
   .search-bar img {
-    width: 30px;
-    height: 30px;
-    padding: 8px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
     border-radius: 50%;
     background-color: #ebfffc;
     cursor: pointer;
@@ -146,25 +148,24 @@
   }
 
   .temperature {
-    font-size: 24px;
+    font-size: 32px;
     margin: 5px 0;
   }
 
   .location {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 15px;
   }
 
   .weather-data {
-    display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
   }
 
   .col {
     display: flex;
     align-items: center;
-    gap: 8px; /* Reduced spacing between icon and text */
+    gap: 10px;
     justify-content: flex-start;
   }
 
