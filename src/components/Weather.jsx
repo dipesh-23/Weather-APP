@@ -68,7 +68,7 @@ const Weather = () => {
   return (
     <div className="Weather">
       <div className="search-bar">
-        <input id="input" ref={inputRef} type="text" placeholder="Search" />
+        <input id="input" ref={inputRef} type="text" placeholder="Search City" />
         <img
           src={search_icon}
           alt="search-img"
